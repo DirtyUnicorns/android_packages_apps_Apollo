@@ -624,7 +624,10 @@ public final class MusicUtils {
         try {
             mService.stop();
             mService.openFile(filename);
-            mService.play();
+            try {
+            	mService.play();
+            }catch (IllegalArgumentException ignored){
+            }
         } catch (final RemoteException ignored) {
         }
     }
