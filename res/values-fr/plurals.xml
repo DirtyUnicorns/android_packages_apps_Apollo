@@ -46,4 +46,10 @@
         <item quantity="one">1 titre a été supprimé.</item>
         <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> titres ont été supprimés.</item>
     </plurals>
+    <!-- Toasts after removing song(s) from playlists -->
+    <plurals name="NNNtracksfromplaylist">
+        <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> titre supprimé de la liste.</item>
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> titres supprimés de la liste.</item>
+    </plurals>
+
 </resources>

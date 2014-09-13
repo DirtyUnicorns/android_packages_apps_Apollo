@@ -53,6 +53,7 @@
     <string name="sort_order_entry_track_list">Suivre la liste</string>
     <string name="sort_order_entry_number_of_songs">Nombre de titres</string>
     <string name="sort_order_entry_number_of_albums">Nombre d\'albums</string>
+    <string name="sort_order_entry_filename">Nom du fichier</string>
     <string name="playlist_favorite">Favoris</string>
     <string name="playlist_favorites">Favoris</string>
     <string name="playlist_last_added">Derniers ajouts</string>
@@ -79,6 +80,7 @@
     <string name="context_menu_open_in_play_store">Ouvrir dans le Play Store</string>
     <string name="context_menu_remove_from_recent">Supprimer des récents</string>
     <string name="context_menu_use_as_ringtone">Utiliser comme sonnerie</string>
+    <string name="context_menu_remove_from_playlist">Supprimer de la liste</string>
     <string name="accessibility_play">Lecture</string>
     <string name="accessibility_pause">Pause</string>
     <string name="accessibility_next">Suivant</string>
@@ -129,4 +131,10 @@
     <string name="empty_search">Aucun résultat de recherche</string>
     <string name="empty_favorite">Vos titres favoris seront affichés ici.</string>
     <string name="empty_recent">Les albums que vous avez écoutés seront affichés ici. Essayer de lire de la musique.</string>
+
+    <!-- Sleep Timer -->
+    <string name="menu_sleep_mode">Minuterie d\'Arrêt</string>
+    <string name="cancel_sleep_mode">Minuterie d\'Arrêt Annulée</string>
+    <string name="select_quit_time">Délai pour arrêter la lecture (en minute(s))</string>
+    <string name="quit_warining">Le lecteur s\'arrêtera après %1$s minute(s)</string>
 </resources>
