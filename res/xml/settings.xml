@@ -64,9 +64,11 @@
             <PreferenceCategory android:title="@string/settings_about_category" >
                 <Preference
                     android:summary="@string/settings_self_title"
+                    android:selectable="false"
                     android:title="@string/settings_author_title" />
                 <Preference
                     android:key="version"
+                    android:selectable="false"
                     android:title="@string/settings_version_title" />
                 <Preference
                     android:key="open_source"
@@ -75,8 +77,10 @@
             <PreferenceCategory android:title="@string/settings_special_thanks" >
                 <Preference
                     android:summary="@string/settings_lopez_summary"
+                    android:selectable="false"
                     android:title="@string/settings_lopez_title" />
-                <Preference android:title="@string/settings_cyanogenmod_title" />
+                <Preference android:title="@string/settings_cyanogenmod_title"
+                    android:selectable="false" />
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>
